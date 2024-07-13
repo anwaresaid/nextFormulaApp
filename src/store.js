@@ -21,6 +21,7 @@ export const useEnergy = create((set) => ({
   setEnergy: (energy) => set({ energy }),
 }));
 export const useCalculateEnergy = create((set) => ({
+  energy: 0,
   calculateEnergy: (mass, speedOfLight) => {
     const energy = mass * speedOfLight ** 2;
     set({ energy });
@@ -41,6 +42,7 @@ export const useResistance = create((set) => ({
   setResistance: (resistance) => set({ resistance }),
 }));
 export const useCalculateOhm = create((set) => ({
+  voltage: 0,
   calculateOhm: (resistance, current) => {
     const voltage = resistance * current;
     set({ voltage });
