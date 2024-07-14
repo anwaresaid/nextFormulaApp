@@ -1,7 +1,6 @@
 "use client";
 import {
   useCalculateEnergy,
-  useEnergy,
   useMass,
   useSpeedOfLight,
 } from "@/store";

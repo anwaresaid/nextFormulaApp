@@ -18,6 +18,10 @@ function SelectFormula() {
       id: 2,
       name: "Ohm's law",
     },
+    {
+      id: 3,
+      name: "Simulation Calculation",
+    },
   ];
   const formula = useSelectFormula((state) => state.formula);
   const setFormula = useSelectFormula((state) => state.setFormula);
