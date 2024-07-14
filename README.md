@@ -1,3 +1,7 @@
+## about this application
+this simple application demonstrates using nextjs, zustand and vercel in an application that calculates the selected formula after entering the variables.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
